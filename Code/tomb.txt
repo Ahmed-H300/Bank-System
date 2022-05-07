@@ -1,0 +1,41 @@
+//scanf("%s",&password);
+//fflush(stdin);
+
+//puts(id);
+///puts(password);
+
+//system("COLOR 07");
+
+/* #include "definations.h" */
+
+
+
+
+typedef unsigned char u8;
+typedef unsigned short int u16;
+typedef unsigned long int u32;
+
+typedef signed char s8;
+typedef signed short int s16;
+typedef signed long int s32;
+
+typedef float f32;
+typedef double f64;
+
+
+for(int i = 0;i < 15;i++)
+	{
+		printf("%d %c\n",i,id[i]);
+	}
+	for(int i = 0;i < 50;i++)
+	{
+		printf("%d %c\n",i,password[i]);
+	}
+	printf("\n%s\n",id);
+	printf("%s\n",password);
+	return;
+	
+	
+	puts(passwordCheck);
+	printf("%d",strlen(password));
+	printf("%d",strlen(passwordCheck));
